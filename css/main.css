@@ -1,0 +1,178 @@
+*{
+  box-sizing : border-box;
+}
+
+@font-face {
+  font-family: 'Oleo Script';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Oleo Script'); src: url(http://fonts.gstatic.com/s/oleoscript/v5/_weQNDK6Uf40CiGFKBBUjogp9Q8gbYrhqGlRav_IXfk.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Poiret One';
+  src: local('Poiret One');
+  src: url(http://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8QzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2');
+
+}
+
+.callout-wrapper{
+  background-color: #43996A;
+  padding: 10px 0px;
+  width: 1280px;
+}
+
+.primary-text {
+  color: #FFFFFF;
+  font-family: "Poiret One";
+  font-size: 32px;
+  line-height: 36px;
+  top: 50%;
+  width: 52%;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  text-align: center;
+  text-shadow: 2px 2px 7px #000000;
+}
+
+.contact-msg{
+  width: 50%;
+  font-family: 'Poiret One';
+  font-size: 22px;
+  text-align: center;
+  color: #333333;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.contact-phone{
+  margin-bottom: 18px;
+  font-family: 'Poiret One';
+  font-size: 22px;
+  text-align: center;
+  color: #333333;
+}
+
+.contact-email{
+  margin-bottom: 24px;
+  filter: saturate(0);
+  text-align: center;
+  font-family: 'Poiret One';
+  font-size: 24px;
+}
+
+
+body{
+  width: 1280px;
+}
+
+.divider{
+  width: 35%;
+  color: #fff;
+}
+
+.main-heading{
+  text-shadow: 4px 4px 10px black;
+  padding-bottom: 32px;
+  border-bottom: 3px solid #FFFFFF;
+  font-family: 'Poiret One';
+  color: #FFFFFF;
+  font-size: 66px;
+  left: 360px;
+  top: 120px;
+  position: absolute;
+}
+
+.subheader-msg{
+  padding-top: 10px;
+  font-family: 'Oleo Script';
+  left: 300px;
+  top: 300px;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-shadow: 8px 8px 10px black;
+  position: absolute;
+}
+
+.image-cards{
+  list-style: none;
+}
+
+.single-img-card{
+  position: relative;
+  left: 175px;
+}
+
+/*.image-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}*/
+
+#left-img{
+  box-shadow: 4px 4px 10px #000000;
+  display: inline-block;
+  height: 260px;
+  width: 260px;
+  margin: 18px;
+  background-image: url('../img/left-img.jpg');
+  background-size: cover;
+}
+
+#middle-img{
+  box-shadow: 4px 4px 10px #000000;
+  display: inline-block;
+  height: 260px;
+  width: 260px;
+  margin: 18px;
+  background-image: url('../img/middle-img.jpg');
+  background-size: cover;
+}
+
+#right-img{
+  box-shadow: 4px 4px 10px #000000;
+  display: inline-block;
+  height: 260px;
+  width: 260px;
+  margin: 18px;
+  background-image: url('../img/right-img.jpg');
+  background-size: cover;
+}
+
+header{
+  background-image: url('../img/header-background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 450px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.logo {
+  filter: invert(1);
+  left: 1000px;
+  top: 160px;
+  content: url(../img/logo.png);
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+.site-footer-text {
+  color: #FFFFFF;
+  /*font-family: sans-serif;*/
+  font-size: 14px;
+}
+
+footer{
+  height: 32px;
+  width: 1280px;
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 36px;
+  margin-bottom: none;
+  background-color: #333333;
+}
+/* filter: invert(100%)
